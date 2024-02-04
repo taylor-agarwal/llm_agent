@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "llm-agent"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+langchain = "^0.1.5"
+langchain-community = "^0.0.17"
+fastapi = "^0.109.1"
+streamlit = "^1.31.0"
+uvicorn = "^0.27.0.post1"
+langchainhub = "^0.1.14"
+duckduckgo-search = "^4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
