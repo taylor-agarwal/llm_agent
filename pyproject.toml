@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.10,<3.13"
 langchain = "^0.1.5"
 langchain-community = "^0.0.17"
 fastapi = "^0.109.1"
@@ -14,6 +14,9 @@ streamlit = "^1.31.0"
 uvicorn = "^0.27.0.post1"
 langchainhub = "^0.1.14"
 duckduckgo-search = "^4.4"
+wikipedia = "^1.4.0"
+pygithub = "^2.2.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
